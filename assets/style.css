@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* body{
+    background-color: ;
+} */
+
+
+
+.img-pal{
+    height: 96px;
+    width: 96px;
+    display: flex;
+    margin: auto;
+    padding-top: 100px;
+}
+
+.div-img{
+    display: flex;
+}
+main {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    justify-content: center;  
+    }
+
+
+
+.botoes {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    /* flex-direction: column; */
+    text-decoration: none;
+    padding: 10px; 
+    color: black;
+    border: 2px solid black; 
+    border-radius: 15px; 
+    width: 18%;
+    margin-top: 70px; 
+    justify-content: center;
+}
+
+.botoes:hover{
+    background-color: #06D001;
+}
+
+
+.img-avanti{
+    display: flex;
+    height: 25px;
+    width: auto;
+    text-align: center;
+}
+
+
+.img-app{
+    display: flex;
+    height: 25px;
+    width: auto;
+    text-align: center;
+    float: left;
+    margin-right: 2%;
+}
+
+.img-app2{
+    display: flex;
+    height: 25px;
+    width: auto;
+    text-align: center;
+    float: left;
+    margin-left: 1%;
+}
+
+.img-pay{
+    display: flex;
+    height: 25px;
+    width: auto;
+    text-align: center;
+    float: left;
+    margin-right: 2%;
+}
+
+.img-loja{
+    display: flex;
+    height: 25px;
+    width: auto;
+    text-align: center;
+    float: left;
+    margin-right: 2%;
+}
+
+.titulo-footer{
+    text-align: center;
+    padding-top: 50px;
+    color: #06D001;
+}
