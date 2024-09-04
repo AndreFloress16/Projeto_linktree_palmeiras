@@ -1,20 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&family=SUSE:wght@100..800&display=swap');
+
 *{
     margin: 0;
     padding: 0;
 }
 
-/* body{
-    background-color: ;
-} */
+body{
+    background-color: #D4E7C5;
+    font-family: "SUSE", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+} 
+
+.subtitulo{
+    text-align: center;
+    padding-top: 5px;
+}
+
+.verifica{
+    height: 17px;
+}
+
+
+.paragrafo{
+    text-align: center;
+    padding-top: 15px;
+}
+
 
 
 
 .img-pal{
-    height: 96px;
-    width: 96px;
+    height: 100px;
+    width: auto;
     display: flex;
     margin: auto;
-    padding-top: 100px;
+    padding-top: 30px;
 }
 
 .div-img{
@@ -24,7 +46,7 @@ main {
     display: flex;
     flex-direction: column; 
     align-items: center; 
-    justify-content: center;  
+    justify-content: center; 
     }
 
 
@@ -47,6 +69,41 @@ main {
 .botoes:hover{
     background-color: #06D001;
 }
+
+.sec-redes{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+}
+
+.rede-ins{
+    display: flex;
+    position: absolute;
+    top: 35%;
+    height: 40px;
+}
+.rede-face{
+    display: flex;
+    position: absolute;
+    top: 40%;
+    height: 40px;
+}
+.rede-th{
+    position: absolute;
+    top: 45%;
+    height: 40px;
+}
+.rede-tik{
+    position: absolute;
+    top: 50%;
+    height: 40px;
+}
+.rede-you{
+    position: absolute;
+    top: 55%;
+    height: 40px;
+}
+
 
 
 .img-avanti{
@@ -93,8 +150,28 @@ main {
     margin-right: 2%;
 }
 
-.titulo-footer{
+.img-site{
+    display: flex;
+    height: 25px;
+    width: auto;
     text-align: center;
-    padding-top: 50px;
+    float: left;
+    margin-right: 2%;
+}
+
+.img-taca{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.titulo-footer{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
     color: #06D001;
 }
