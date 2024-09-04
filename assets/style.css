@@ -62,7 +62,7 @@ main {
     border: 2px solid black; 
     border-radius: 15px; 
     width: 18%;
-    margin-top: 70px; 
+    margin-top: 60px; 
     justify-content: center;
 }
 
@@ -73,35 +73,37 @@ main {
 .sec-redes{
     display: flex;
     align-items: flex-start;
-    flex-direction: column;
+    flex-direction: row;
 }
 
 .rede-ins{
     display: flex;
-    position: absolute;
-    top: 35%;
-    height: 40px;
+    height: 40px;;
+    padding-right: 10px;
+    padding-top: 10px;
 }
 .rede-face{
     display: flex;
-    position: absolute;
-    top: 40%;
     height: 40px;
+    padding-right: 10px;
+    padding-top: 10px;
 }
 .rede-th{
-    position: absolute;
-    top: 45%;
+    display: flex;
     height: 40px;
+    padding-right: 10px;
+    padding-top: 10px;
 }
 .rede-tik{
-    position: absolute;
-    top: 50%;
+    display: flex;
     height: 40px;
+    padding-right: 10px;
+    padding-top: 10px;
 }
 .rede-you{
-    position: absolute;
-    top: 55%;
+    display: flex;
     height: 40px;
+    padding-top: 10px;
 }
 
 
